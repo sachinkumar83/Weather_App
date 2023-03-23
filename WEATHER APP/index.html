@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       
+    <!-- <h1 class="head">Wheather Forecast</h1> -->
+        <main class="container" >
+       
+        <!-- temp -->
+            <article id="current-forecast">
+                <h1 class="city">City Name</h1>
+                <p class="temp">Temp</p>
+                <p class="description">Description</p>
+                <p class="min-max-temp">High Low</p>
+            </article>
+
+        <!-- Hour -->
+
+
+            <article id="hourly-forecast">
+                <h1>Hourly Forecast</h1>
+                <section class="hourly-container"> 
+                    <article>
+                        <h2 class="time">Now</h2>
+                        <img class="icon">Icon
+                        <p class="hourly-temp">Temp</p>
+                    </article>
+                </section>
+            </article>
+
+            <!-- 5 days -->
+            <article id="five">
+                <h1>5 Days Hourly Forecast</h1>
+               <section class="five-day-forecast-container">
+                
+                <article class="day-wise-forecast">
+                    <h3>Today</h3>
+                    <img class="icon" src="" alt="Forecast image" >
+                    <P class="min-temp">Low</P>
+                    <p class="max-temp">High</p>
+                </article>
+
+                <article class="day-wise-forecast">
+                    <h3>Today</h3>
+                    <img class="icon" src="" alt="Forecast image" >
+                    <P class="min-temp">Low</P>
+                    <p class="max-temp">High</p>
+                </article>
+
+                <article class="day-wise-forecast">
+                    <h3>Today</h3>
+                    <img class="icon" src="" alt="Forecast image" >
+                    <P class="min-temp">Low</P>
+                    <p class="max-temp">High</p>
+                </article>
+
+                <article class="day-wise-forecast">
+                    <h3>Today</h3>
+                    <img class="icon" src="" alt="Forecast image" >
+                    <P class="min-temp">Low</P>
+                    <p class="max-temp">High</p>
+                </article>
+
+               </section>
+            </article>
+        <!--  -->
+            <article id="feel-like">
+                <h1>Feels</h1>
+                <p class="feels-like-temp">Temp</p>
+            </article>
+
+            <article id="humidity">
+                <h1>Humidity</h1>
+                <P class="humidity-value" >value</P>
+            </article>
+
+         
+        </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
